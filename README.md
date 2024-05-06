@@ -17,3 +17,7 @@ This project is made so all the elements are displayed correctly on popular scre
 **Description**
 
 This project is the first time I ever implemented media queries so the transitions are a bit rough. It is a basic responsive page detailing different locations across the U.S.
+
+**Video Link**
+here is the link for my scree recording detailing my project
+https://drive.google.com/file/d/1rXBHTJ3N8j1mnkQYMYu8PDKc4wKmJBr6/view?usp=sharing

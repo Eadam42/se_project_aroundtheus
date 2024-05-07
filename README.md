@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. I did my best but lots of issues, hoping the code review will shed light on them
+This project is made so all the elements are displayed correctly on popular screen sizes.
 
 **Figma**
 
@@ -16,7 +16,7 @@ This project is made so all the elements are displayed correctly on popular scre
 
 **Description**
 
-This project is the first time I ever implemented media queries so the transitions are a bit rough. It is a basic responsive page detailing different locations across the U.S.
+This project is the first time I ever implemented media queries so the transitions are a bit rough. It is a basic responsive page detailing different locations across the U.S.For this project I used grid and flexbox for responive design. I started the basic layout at 1220px, then made media queries for 2 different resolutions( a medium size resolution at 872px and small size resolution at 320px ).
 
 **Video Link**
 here is the link for my scree recording detailing my project

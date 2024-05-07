@@ -13,7 +13,7 @@
   grid-template-areas:
     "title button"
     "description description";
-  grid-template-columns: minmax(auto, 373px) auto;
+  grid-template-columns: minmax(auto-fit, 373px) auto;
   padding: 22px 0 21px 30px;
 }
 .profile__title {
@@ -30,17 +30,13 @@
 
 .profile__edit-button {
   background: transparent url(../images/edit-button.svg) center no-repeat;
-  border-style: none;
   height: 24px;
   width: 24px;
   grid-area: button;
   align-self: center;
-  border-width: 1px;
-  border-color: white;
   cursor: pointer;
-  padding-bottom: 9px;
-  padding: top 15px;
-  margin: 0;
+  padding: 15px 0 9px 18px;
+  border: 1px solid #fff;
 }
 
 .profile__edit-button:hover {
@@ -63,11 +59,73 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
-  border-width: 2px;
-  border-color: white;
+  border: 1px solid #fff;
   cursor: pointer;
 }
 .profile__add-button:hover {
   opacity: 60%;
-  cursor: hand;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 872px) {
+  .profile {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 282px;
+  }
+
+  .profile__title {
+    padding: 0;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+  }
+
+  .profile__info {
+    grid-template-columns: repeat(2, fit-content(100%));
+    padding: 30px 0 36px;
+  }
+
+  .profile__description {
+    justify-self: center;
+  }
+
+  .profile__edit-button {
+    padding-top: 4px;
+    align-self: self-start;
+  }
+
+  .profile__add-button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .profile__title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  .profile__description {
+    justify-self: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+.profile__edit-button {
+  width: 18px;
+  height: 18px;
+  background-size: 7.5px;
+
+  .profile__add-button {
+    background-size: 16px;
+  }
 }

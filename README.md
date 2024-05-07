@@ -21,3 +21,6 @@ This project is the first time I ever implemented media queries so the transitio
 **Video Link**
 here is the link for my scree recording detailing my project
 https://drive.google.com/file/d/1rXBHTJ3N8j1mnkQYMYu8PDKc4wKmJBr6/view?usp=sharing
+
+**Github Pages Link**
+https://eadam42.github.io/se_project_aroundtheus
